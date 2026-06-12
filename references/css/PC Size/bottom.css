@@ -2,11 +2,11 @@ bottom{
     display:flex;
     flex-direction: column;
     background-color: #8A1538;
-    height: 60vh;
+    height: 65vh;
 }
 
 .declaration{
-    flex:0.75;
+    flex:1;
     display:flex;
     justify-content: center;
     align-items: center;
