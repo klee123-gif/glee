@@ -110,6 +110,13 @@ body{
         margin-top: 0%;
         font-size:20px;
         padding:10px 40px;
+
+        }
+
+    .about-us a:hover{
+        background-color: #ffffff;
+        color:#8A1538;
+        transition:0.3s;
         }
 
 .title{
@@ -150,7 +157,20 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    margin:1vh
 
+}
+
+.subtitle:hover .arrow-right{
+    transition:0.3s;
+    height:5.5vh;
+    width:5.5vh;
+    border-radius: 50%;
+    font-size:30px;
+    font-weight: bold;
+    background-color: white;
+    color:black;
+    margin:0.75vh
 }
 
 .subtitle-content{
@@ -158,6 +178,14 @@ body{
     color:white;
     font-size:3vh;
 }
+
+.subtitle:hover .subtitle-content{
+    transition:0.3s;
+    margin-left: 20px;
+    color:white;
+    font-size:3.2vh;
+}
+
 .gradient{
     height: 100vh;
     position: absolute;
